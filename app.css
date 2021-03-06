@@ -1,0 +1,86 @@
+/****************************
+*****************************
+DAD JOKES GENERATOR 
+by Fernanda Pacheco 
+*****************************
+INDEX
+1- GENERAL 
+2- TITLE
+3- CARD 
+4- BUTTON
+5- BUTTON STATES
+6- @MEDIA
+*****************************
+****************************/
+
+/************ 1 **********/
+/********* GENERAL ********/
+body {
+    background-color: #4B2163;
+    font-family: 'Open Sans', sans-serif;
+    color: #f1f1f1;
+    text-align: center;
+    font-size: 18px;
+}
+
+/************ 2 **********/
+/********** TITLE ********/
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 58px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+/************ 3 **********/
+/********** CARD *********/
+#joke_container{
+    background-color: #822FCB;
+    padding: 24px;
+    margin: 32px auto;
+    width: 50%;
+    border-radius: 10px;
+}
+
+/************ 4 **********/
+/********* BUTTON ********/
+button {
+    border: solid 2px #ffe395;
+    background-color: #4B2163;
+    color: #ffe395;
+    padding: 12px 16px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+
+}
+
+/************ 5 **********/
+/**** BUTTON STATES ******/
+button:hover {
+    background-color: #ffe395;
+    box-shadow: 0px 15px 20px rgba(32, 32, 32, 0.4);
+    color: #4B2163;
+}
+button:focus {
+    outline: none;
+}
+button:active {
+    background-color: #f8ebc9;
+}
+
+/************ 5 **********/
+/********* @MEDIA ********/
+
+@media(max-width: 876px){
+    #joke_container {
+        width: 70%;
+    }
+}
+
+@media(max-width: 576px){
+    #joke_container {
+        width: 80%;
+    }
+}
